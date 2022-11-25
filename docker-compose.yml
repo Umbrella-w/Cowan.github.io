@@ -11,6 +11,6 @@ services:
     environment:
       HEXO_SERVER_PORT: 4080
     ports:
-      - '8080:4080'
+      - '80:4080'
     volumes:
       - ./data/blog:/root/blog
